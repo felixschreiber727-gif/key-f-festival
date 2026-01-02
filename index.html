@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Key-F Festival – Offizielle Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; }
+    body { background: #0b0b0b; color: #fff; }
+    header { height: 100vh; background: linear-gradient(135deg, #000, #1a1a1a); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+    header h1 { font-size: 4rem; font-weight: 900; letter-spacing: 4px; }
+    header p { margin-top: 20px; font-size: 1.2rem; color: #ccc; }
+    header a { margin-top: 40px; padding: 15px 40px; background: #ff0055; color: #fff; text-decoration: none; border-radius: 30px; font-weight: 700; transition: 0.3s; }
+    header a:hover { background: #ff336f; }
+
+    section { padding: 80px 10%; }
+    .section-title { font-size: 2.5rem; margin-bottom: 40px; text-transform: uppercase; }
+
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    .about p { color: #ccc; line-height: 1.7; }
+
+    .shows ul, .songs ul { list-style: none; }
+    .shows li, .songs li { background: #141414; padding: 20px; margin-bottom: 15px; border-radius: 12px; }
+
+    .shop { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
+    .product { background: #141414; padding: 20px; border-radius: 20px; text-align: center; }
+    .product img { width: 100%; border-radius: 15px; margin-bottom: 15px; }
+    .product button { margin-top: 10px; padding: 10px 25px; border: none; background: #ff0055; color: #fff; border-radius: 20px; cursor: pointer; }
+
+    footer { background: #000; padding: 40px 10%; text-align: center; color: #666; }
+
+    @media(max-width: 768px) {
+      header h1 { font-size: 2.8rem; }
+      .about { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KEY-F FESTIVAL</h1>
+  <p>Sound. Emotion. Energie. – Erlebe Key-F live</p>
+  <a href="#shows">Live Auftritte</a>
+</header>
+
+<section class="about">
+  <div>
+    <h2 class="section-title">Über Key-F</h2>
+    <p>
+      Key-F steht für ehrliche Texte, intensive Beats und echte Emotionen.
+      Seine Musik verbindet Festival-Vibes mit tiefen Messages.
+      Live ist Key-F pure Energie – roh, direkt und unvergesslich.
+    </p>
+  </div>
+  <div>
+    <h2 class="section-title">Mission</h2>
+    <p>
+      Diese Website ist dein Zugang zur Welt von Key-F: neue Songs,
+      exklusive Live-Auftritte, Festival-Infos und offizieller Merch.
+    </p>
+  </div>
+</section>
+
+<section id="shows" class="shows">
+  <h2 class="section-title">Live Auftritte</h2>
+  <ul>
+    <li><strong>Berlin Open Air</strong> – 12.07.2026</li>
+    <li><strong>Hamburg Festival Night</strong> – 02.08.2026</li>
+    <li><strong>Cologne Underground</strong> – 20.08.2026</li>
+  </ul>
+</section>
+
+<section class="songs">
+  <h2 class="section-title">Songliste</h2>
+  <ul>
+    <li>Key-F – Gänsehaut</li>
+    <li>Key-F – Ja Ja</li>
+    <li>Key-F – Nachtlichter</li>
+    <li>Key-F – Kein Filter</li>
+  </ul>
+</section>
+
+<section class="shop">
+  <h2 class="section-title">Online Shop</h2>
+  <div class="product">
+    <img src="https://via.placeholder.com/300x300" alt="Key-F Hoodie">
+    <h3>Key-F Hoodie</h3>
+    <p>49,99 €</p>
+    <button>In den Warenkorb</button>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/300x300" alt="Key-F Cap">
+    <h3>Key-F Cap</h3>
+    <p>24,99 €</p>
+    <button>In den Warenkorb</button>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/300x300" alt="Festival Ticket">
+    <h3>Festival Ticket</h3>
+    <p>79,99 €</p>
+    <button>Jetzt kaufen</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Key-F – Offizielle Festival Website</p>
+</footer>
+
+</body>
+</html>
